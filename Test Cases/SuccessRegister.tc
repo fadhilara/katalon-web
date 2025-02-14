@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SuccessRegister</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8e354fe-22a1-4909-b415-d22b40ff4e9c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ba1d66e-a9ad-4663-bb46-0834202cb04c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>867d72d6-fc43-4820-b7cf-6947f0e43137</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'cvW8qx4B2o1WegCEDy41Xg=='</defaultValue>
+      <description></description>
+      <id>2ba1d66e-a9ad-4663-bb46-0834202cb04c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'cvW8qx4B2o1WegCEDy41Xg=='</defaultValue>
+      <description></description>
+      <id>867d72d6-fc43-4820-b7cf-6947f0e43137</id>
+      <masked>false</masked>
+      <name>confirmPassword</name>
+   </variable>
+</TestCaseEntity>

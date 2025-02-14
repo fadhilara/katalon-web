@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Email atau kata sandi tidak cocok. Sila_55fa16</name>
+   <tag></tag>
+   <elementGuidId>66f479a1-5ab0-4b5e-b48f-04675fcb3559</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/ol/li/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-s-medium.text-neutral-50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;snackbarDescription&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d3a57eb5-8f30-442c-8b45-ea3349742737</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-s-medium text-neutral-50</value>
+      <webElementGuid>dc46eb20-d739-4b61-a7c6-7291a299d545</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>snackbarDescription</value>
+      <webElementGuid>fc195649-734f-4a25-a11b-69c34946f79f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email atau kata sandi tidak cocok. Silakan coba lagi.</value>
+      <webElementGuid>b4a8fae3-42ac-4850-8ccd-a1fa4c523e15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative flex h-[100vh] min-h-max flex-col dweb group&quot;]/div[2]/ol[@class=&quot;snackbar-viewport fixed bottom-12 z-[60] mx-auto flex max-h-screen w-full max-w-[500px] flex-col-reverse items-center [.dweb_&amp;]:bottom-auto [.dweb_&amp;]:top-[88px] [.dweb_&amp;]:max-w-[100%] [.dweb_&amp;]:flex-col&quot;]/li[@class=&quot;snackbar group pointer-events-auto mx-auto flex items-center justify-between space-x-2 overflow-hidden rounded-s bg-neutral-600 px-4 py-3 shadow-3 transition-all [.dweb_&amp;]:w-[480px] [.mweb_&amp;]:w-[calc(100dvw_-_32px)] [.mweb_&amp;]:max-w-[468px] data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-50 data-[state=closed]:slide-out-to-bottom-[300%] data-[state=open]:slide-in-from-bottom-[300%] data-[state=closed]:[animation-duration:_.3s] data-[state=open]:[animation-duration:_.3s] data-[state=closed]:[.dweb_&amp;]:slide-out-to-top-[300%] data-[state=open]:[.dweb_&amp;]:slide-in-from-top-[300%]&quot;]/div[@class=&quot;text-s-medium text-neutral-50&quot;]</value>
+      <webElementGuid>64de3dcd-c0e4-4918-8780-c7df1b23b421</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/ol/li/div</value>
+      <webElementGuid>c0abe6cc-9e8e-4b69-9f4c-b9f2f3941902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::div[3]</value>
+      <webElementGuid>164e6e39-71fa-4352-bb5b-47246be85717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk dengan MyValue'])[1]/following::div[4]</value>
+      <webElementGuid>8e7f17b3-213c-4e43-ab42-0ad10e229085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi untukmu'])[1]/preceding::div[4]</value>
+      <webElementGuid>2e60eb29-662c-4b83-b307-94f8c67ed2a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email atau kata sandi tidak cocok. Silakan coba lagi.']/parent::*</value>
+      <webElementGuid>52fc7493-420d-4661-8458-0cd41cd6e3d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div</value>
+      <webElementGuid>ff55b9c7-4d86-47dc-9193-a998c5701d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email atau kata sandi tidak cocok. Silakan coba lagi.' or . = 'Email atau kata sandi tidak cocok. Silakan coba lagi.')]</value>
+      <webElementGuid>a887d1a5-e4e4-4838-97a8-77c455653d75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

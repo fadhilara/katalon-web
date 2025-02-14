@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_checkbox_tc</name>
+   <tag></tag>
+   <elementGuidId>2b13ff5e-f079-4f9a-a9dd-5924917af830</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@role='checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@role='checkbox']</value>
+      <webElementGuid>57f02fca-d67f-44db-82e6-c69244f213ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

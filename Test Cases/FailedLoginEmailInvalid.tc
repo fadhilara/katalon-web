@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FailedLoginEmailInvalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca432c44-99a0-4dff-aca6-4d0f790e9981</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c83b0ee1-db30-4c9b-9b19-c15fc2a02466</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be184f6e-9f2f-46ed-a247-a6f2a84fbb94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'z'</defaultValue>
+      <description></description>
+      <id>c83b0ee1-db30-4c9b-9b19-c15fc2a02466</id>
+      <masked>false</masked>
+      <name>email_invalid</name>
+   </variable>
+   <variable>
+      <defaultValue>'HeCM15nHKBI='</defaultValue>
+      <description></description>
+      <id>be184f6e-9f2f-46ed-a247-a6f2a84fbb94</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

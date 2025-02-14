@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a3ca7041-f332-415d-8f0c-eb0fdc5be142</testSuiteGuid>
+   <testCaseLink>
+      <guid>b66baa64-dd78-4856-87a6-7674d26b046b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SuccessLogin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>170b2d8e-f31a-49fc-843f-60b05ea631f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7bd403bd-7420-41df-b447-6ea133378327</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f2a55c1b-8f78-4f30-848d-c92e37f713d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FailedLoginNotMatch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c0b54668-6ed8-425f-a67f-680842e69fc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8301089-97ac-4984-842c-20384dcbc584</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>863224ec-0015-4bc9-aae8-c8a1d5fb0856</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e4e6329-8462-48da-88e2-ffd5884d9664</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FailedLoginEmailInvalid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c83b0ee1-db30-4c9b-9b19-c15fc2a02466</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be184f6e-9f2f-46ed-a247-a6f2a84fbb94</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

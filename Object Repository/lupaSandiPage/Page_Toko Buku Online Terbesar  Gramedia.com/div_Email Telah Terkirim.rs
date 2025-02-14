@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Email Telah Terkirim</name>
+   <tag></tag>
+   <elementGuidId>ad70787c-8e27-4cf3-9c7e-ab246d8ef7fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r3:']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mt-4.text-l-extrabold.text-neutral-700</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;forgotPasswordSuccessTitleModal&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b0c4339-15e9-4814-9f8f-07ecc2be4cf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-4 text-l-extrabold text-neutral-700</value>
+      <webElementGuid>ebd958d2-466a-4f58-ae48-8d50d0c0ca09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>forgotPasswordSuccessTitleModal</value>
+      <webElementGuid>1f383061-f042-40a3-a49e-d53ae47115c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email Telah Terkirim!</value>
+      <webElementGuid>be3bc307-b85f-4ead-ab0f-86ea9909b617</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r3:&quot;)/div[1]/div[@class=&quot;text-center py-4&quot;]/div[@class=&quot;mt-4 text-l-extrabold text-neutral-700&quot;]</value>
+      <webElementGuid>74fb75f5-a32e-4baa-b3c8-fd86facc336f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r3:']/div/div/div[2]</value>
+      <webElementGuid>7c896bc0-2696-4ea5-ab14-cde9ac8b3e98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi untukmu'])[1]/following::div[22]</value>
+      <webElementGuid>0365183f-3dee-45be-855b-d4e770e2f570</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download aplikasi Gramedia.com yang tersedia di seluruh perangkat iOS dan Android'])[1]/following::div[33]</value>
+      <webElementGuid>994c6bcc-5951-4a88-b81a-df07e1d3f8ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Email'])[1]/preceding::div[2]</value>
+      <webElementGuid>9f531d47-51d7-44c9-a461-d0fee543be02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email Telah Terkirim!']/parent::*</value>
+      <webElementGuid>d7f2c3fc-8a7f-4c1d-bc6e-8573c49a4795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div[2]</value>
+      <webElementGuid>5df56f3e-7886-41bf-a62d-28c8d0dca13e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email Telah Terkirim!' or . = 'Email Telah Terkirim!')]</value>
+      <webElementGuid>e661d054-81a0-41f0-8fdd-4a23b34c7400</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

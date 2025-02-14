@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LupaSandi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>093a6d0e-baca-491e-bd73-73a6abb70930</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>720d8b72-8256-4f39-b141-d9bc367aa8a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'z@mail.com'</defaultValue>
+      <description></description>
+      <id>720d8b72-8256-4f39-b141-d9bc367aa8a9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

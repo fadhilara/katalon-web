@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Konfirmasi Kata Sandi_h-6 w-6 ___12fm75_9772ba</name>
+   <tag></tag>
+   <elementGuidId>789d70e4-3b89-4317-8e12-3b791e7ce33a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi Kata Sandi'])[1]/following::*[name()='svg'][5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.h-6.w-6.___12fm75w.f1w7gpdv.fez10in.fg4l7m0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=checkbox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>dc70b40c-2bed-49e8-8f1c-44c2d61bb549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-6 w-6 ___12fm75w f1w7gpdv fez10in fg4l7m0</value>
+      <webElementGuid>71c40fcd-b480-483c-8b93-bbba26fe2557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>2b1ac2d7-114c-4659-92b3-03bd84bf40cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d40c1828-6872-4c8f-8fe8-25829ccb6831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>5d27b78c-f637-4651-b04c-f187f8183529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1em</value>
+      <webElementGuid>39bec8f8-9674-43e1-baaf-c2c166a266c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 20 20</value>
+      <webElementGuid>0723ce22-650d-4139-808e-371d2ba9d814</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>e738df2e-9e3b-4a7c-bce0-dd8fc25c99b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative flex h-[100vh] min-h-max flex-col dweb group&quot;]/main[@class=&quot;relative&quot;]/div[@class=&quot;flex h-full min-h-max w-full justify-center bg-cover bg-center [.dweb_&amp;]:items-center [.dweb_&amp;]:bg-neutral-50 [.dweb_&amp;]:px-[176px] [.dweb_&amp;]:py-[72px] [.mweb_&amp;]:px-6&quot;]/div[@class=&quot;[.dweb_&amp;]:m-container mx-auto flex min-h-max w-full shrink-0 items-center rounded-2xl bg-white [.dweb_&amp;]:h-[660px] [.dweb_&amp;]:justify-around [.dweb_&amp;]:gap-[48px] [.dweb_&amp;]:px-[48px] [.dweb_&amp;]:pb-[100px] [.dweb_&amp;]:pt-[127px] [.mweb_&amp;]:mt-4 [.mweb_&amp;]:flex-col&quot;]/div[@class=&quot;flex shrink-0 flex-col pb-5 auth_authContent__cbSDK&quot;]/form[@class=&quot;mt-6  flex flex-col gap-4&quot;]/div[@class=&quot;mb-1 flex items-center gap-2&quot;]/button[@class=&quot;relative peer flex items-center justify-center rounded-xs shadow transition-colors hover:bg-neutral-50 hover:rounded-xs active:bg-neutral-50 active:rounded-xs h-6 w-6&quot;]/svg[@class=&quot;h-6 w-6 ___12fm75w f1w7gpdv fez10in fg4l7m0&quot;]</value>
+      <webElementGuid>b89bfcc0-c058-40fb-9432-9b5d6c15bed0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konfirmasi Kata Sandi'])[1]/following::*[name()='svg'][5]</value>
+      <webElementGuid>2e78e246-0395-428b-b23a-fbf57e8c8366</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kata Sandi'])[1]/following::*[name()='svg'][6]</value>
+      <webElementGuid>ca65d6af-404f-4ee3-80af-1a4c35f590a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>b2ab5d7a-5578-4431-a99e-6e048f5407eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>772bb299-8763-4ad3-a76c-9a697dbc30ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
