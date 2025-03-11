@@ -17,14 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
-WebUI.maximizeWindow()
-
-if (WebUI.verifyElementVisible(findTestObject('banner'))) {
-	WebUI.click(findTestObject('button_close_popup'))
+if (WebUI.verifyElementVisible(findTestObject('banner1'))) {
+    WebUI.click(findTestObject('button_close_popup'))
 }
 
 WebUI.click(findTestObject('loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Masuk'))
@@ -39,6 +33,4 @@ WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia
 
 WebUI.verifyElementPresent(findTestObject('loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/li_Format email tidak sesuai'), 
     0)
-
-WebUI.closeBrowser()
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>banner1</name>
+   <tag></tag>
+   <elementGuidId>daf2da22-0243-4e5a-88fc-9aad23950b18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.ins-layout</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>.ins-layout</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>.ins-layout</value>
+      <webElementGuid>60ce5b55-5725-4e45-9cad-94b00300499e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

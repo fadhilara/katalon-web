@@ -24,25 +24,24 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 WebUI.maximizeWindow()
 
 if (WebUI.verifyElementVisible(findTestObject('banner'))) {
-	WebUI.click(findTestObject('button_close_popup'))
+    WebUI.click(findTestObject('button_close_popup'))
 }
 
 WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Email_email'),
-	email)
+WebUI.setText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Email_email'), 
+    email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Kata Sandi_password'),
-	password)
+WebUI.setEncryptedText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Kata Sandi_password'), 
+    password)
 
 WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/button_Masuk'))
 
-if(status == 'failed') { 
-	WebUI.verifyElementVisible(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Email atau kata sandi tidak cocok. Sila_55fa16'))
+if (status == 'failed') {
+    WebUI.verifyElementVisible(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Email atau kata sandi tidak cocok. Sila_55fa16'))
 } else {
-	WebUI.verifyElementVisible(findTestObject('registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/p_Selamat datang'))
+    WebUI.verifyElementVisible(findTestObject('registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/p_Selamat datang'))
 }
 
-
-
 WebUI.closeBrowser()
+

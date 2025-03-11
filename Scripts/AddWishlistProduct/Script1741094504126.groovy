@@ -16,28 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.annotation.SetUp as SetUp
+import com.kms.katalon.core.annotation.TearDown as TearDown
 
-not_run: WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SuccessLogin'), [('email') : 'z@mail.com', ('password') : 'cvW8qx4B2o1WegCEDy41Xg=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
-not_run: WebUI.maximizeWindow()
-
-if (WebUI.verifyElementVisible(findTestObject('banner'))) {
+if (WebUI.verifyElementVisible(findTestObject('banner1'), FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('button_close_popup'))
 }
 
-WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Masuk'))
+WebUI.click(findTestObject('Object Repository/Page_Toko Buku Online Terbesar  Gramedia.com/button_Kategori'))
 
-WebUI.setText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Email_email'), 
-    email)
+WebUI.click(findTestObject('Object Repository/Page_Toko Buku Online Terbesar  Gramedia.com/span_Personal Growth'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Kata Sandi_password'), 
-    password)
+WebUI.click(findTestObject('Object Repository/wishlist/add_to_wishlist'))
 
-WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/button_Masuk'))
+WebUI.verifyElementPresent(findTestObject('wishlist/success_add_wishlist'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Email atau kata sandi tidak cocok. Sila_55fa16'))
-
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

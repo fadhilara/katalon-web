@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ramadhan</name>
+   <tag></tag>
+   <elementGuidId>146227a4-0453-4f86-a4a8-8e73a6d3bac9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div/div[2]/div[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;productListSearchSummary&quot;] >> internal:text=&quot;ramadhan&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eeb44487-0d4c-4531-90d9-0d77828d5d1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>before:content-[open-quote] after:content-[close-quote]</value>
+      <webElementGuid>d6533d7e-8015-4050-b370-73a70c6a274d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ramadhan</value>
+      <webElementGuid>341fc681-7ed4-421a-a4c8-967798f3354b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;relative flex min-h-[100dvh] flex-col dweb group&quot;]/main[@class=&quot;relative mt-[120px]&quot;]/div[@class=&quot;[.dweb_&amp;]:m-container relative mx-auto mt-6 flex space-x-8 px-4&quot;]/div[@class=&quot;w-full min-w-0 flex-grow&quot;]/div[@class=&quot;mt-4 line-clamp-2 text-m-medium text-neutral-700&quot;]/span[@class=&quot;text-m-extrabold&quot;]/span[@class=&quot;before:content-[open-quote] after:content-[close-quote]&quot;]</value>
+      <webElementGuid>0c9d9267-5f0a-45ef-9285-065cb2a09600</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div[2]/div[2]/span/span</value>
+      <webElementGuid>a0374017-9b7a-480f-bc4f-ac71cecc618c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paling Relevan'])[1]/following::span[2]</value>
+      <webElementGuid>cf608520-826c-42a0-aa3f-faa3e654873d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stok Tersedia'])[1]/preceding::span[1]</value>
+      <webElementGuid>7b824db6-599c-46a7-a5f8-1b80bc775ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ramadhan K.h.'])[1]/preceding::span[2]</value>
+      <webElementGuid>141754c7-0736-4f9f-a1c1-3c155df84eaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ramadhan']/parent::*</value>
+      <webElementGuid>4c357742-1f86-44aa-a818-76d3bd64e809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/span</value>
+      <webElementGuid>b7be0993-c3b2-4532-82c9-3be31a771fe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ramadhan' or . = 'ramadhan')]</value>
+      <webElementGuid>060da5a1-6f49-4448-a588-509225f8fe3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

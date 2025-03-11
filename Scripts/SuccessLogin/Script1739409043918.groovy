@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
+not_run: WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-if (WebUI.verifyElementVisible(findTestObject('banner'))) {
-    WebUI.click(findTestObject('button_close_popup'))
-}
-
+//if (WebUI.verifyElementVisible(findTestObject('banner'))) {
+//    WebUI.click(findTestObject('button_close_popup'))
+//}
 WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Masuk'))
 
 WebUI.setText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Email_email'), 
@@ -38,6 +37,4 @@ WebUI.setEncryptedText(findTestObject('Object Repository/loginPage/Page_Masuk Ak
 WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/button_Masuk'))
 
 WebUI.verifyElementVisible(findTestObject('registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/p_Selamat datang'))
-
-WebUI.closeBrowser()
 

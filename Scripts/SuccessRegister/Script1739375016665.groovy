@@ -26,12 +26,9 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.maximizeWindow()
 
-if (WebUI.verifyElementVisible(findTestObject('banner'))) {
+if (WebUI.verifyElementVisible(findTestObject('banner1'))) {
 	WebUI.click(findTestObject('button_close_popup'))
 }
-
-
-//WebUI.click(findTestObject('button_close_popup'))
 
 WebUI.click(findTestObject('registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/div_Daftar'))
 
@@ -55,9 +52,6 @@ WebUI.click(findTestObject('registerPage/Page_Daftar Akun Gramedia  Toko Buku On
 
 WebUI.click(findTestObject('Object Repository/registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/button_Daftar'))
 
-//WebUI.click(findTestObject('null'))
-//
-//WebUI.click(findTestObject('Object Repository/registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/div_Daftar'))
 WebUI.verifyElementPresent(findTestObject('registerPage/Page_Daftar Akun Gramedia  Toko Buku Online_677304/p_Selamat datang'), 
     0)
 

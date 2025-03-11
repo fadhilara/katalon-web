@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.annotation.SetUp as SetUp
+import com.kms.katalon.core.annotation.TearDown as TearDown
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,27 +19,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SuccessLogin'), [('email') : 'z@mail.com', ('password') : 'cvW8qx4B2o1WegCEDy41Xg=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.navigateToUrl(GlobalVariable.baseUrl)
+WebUI.click(findTestObject('Object Repository/categoryProduct/Page_Toko Buku Online Terbesar  Gramedia.com/button_Kategori'))
 
-not_run: WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/categoryProduct/Page_Toko Buku Online Terbesar  Gramedia.com/span_'))
 
-if (WebUI.verifyElementVisible(findTestObject('banner'))) {
-    WebUI.click(findTestObject('button_close_popup'))
-}
+WebUI.click(findTestObject('Object Repository/categoryProduct/Page_Toko Buku Online Terbesar  Gramedia.com/button_Kategori'))
 
-WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Masuk'))
+WebUI.click(findTestObject('Object Repository/categoryProduct/Page_Toko Buku Online Terbesar  Gramedia.com/a_Ilmu Komputer'))
 
-WebUI.setText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Email_email'), 
-    email)
+WebUI.verifyElementPresent(findTestObject('Object Repository/categoryProduct/Page_Jual Ilmu Komputer terbaru dan best se_b568dd/h1_Ilmu Komputer'), 
+    0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/input_Kata Sandi_password'), 
-    password)
-
-WebUI.click(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/button_Masuk'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/loginPage/Page_Masuk Akun Gramedia  Toko Buku Online _0125a3/div_Email atau kata sandi tidak cocok. Sila_55fa16'))
-
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>success_add_wishlist</name>
+   <tag></tag>
+   <elementGuidId>76f73a12-35f3-45a0-98fb-0b2feda2fdce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>[data-testid='wishlistAddedSuccess']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>[data-testid='wishlistAddedSuccess']</value>
+      <webElementGuid>024cdd5c-a26d-489d-b6c0-e072447f8f7c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
